@@ -1,0 +1,276 @@
+1: What is the largest mammal on Earth?
+a. Elephant
+b. Blue whale
+c. Giraffe
+d. Hippopotamus
+Answer: b
+
+2: Which bird is known for its ability to mimic human speech?
+a. Crow
+b. Parrot
+c. Sparrow
+d. Pigeon
+Answer: b
+
+3: What is the fastest land animal?
+a. Cheetah
+b. Lion
+c. Gazelle
+d. Wildebeest
+Answer: a
+
+4: What type of animal is a seahorse?
+a. Fish
+b. Mammal
+c. Reptile
+d. Amphibian
+Answer: a
+
+5: Which of the following is not a species of big cat?
+a. Lion
+b. Leopard
+c. Cheetah
+d. Hyena
+Answer: d
+
+6: What is the only mammal capable of sustained flight?
+a. Bat
+b. Flying squirrel
+c. Pigeon
+d. Hummingbird
+Answer: a
+
+7: What is the largest species of bear?
+a. Grizzly bear
+b. Polar bear
+c. Black bear
+d. Brown bear
+Answer: b
+
+8: Which animal is known for its ability to change its skin color to blend with its surroundings?
+a. Chameleon
+b. Octopus
+c. Cuttlefish
+d. Frog
+Answer: a
+
+9: What is the main diet of a panda?
+a. Bamboo
+b. Meat
+c. Fruits
+d. Leaves
+Answer: a
+
+10: What is the gestation period of an elephant, approximately?
+a. 6 months
+b. 12 months
+c. 18 months
+d. 24 months
+Answer: c
+11: Which country is famous for its spicy cuisine, including dishes like Tom Yum and Green Curry?
+a. India
+b. China
+c. Thailand
+d. Mexico
+Answer: c
+
+12: What is the main ingredient in hummus?
+a. Chickpeas
+b. Lentils
+c. Black beans
+d. Kidney beans
+Answer: a
+
+13: What type of seafood is traditionally used in sushi?
+a. Tuna
+b. Salmon
+c. Shrimp
+d. All of the above
+Answer: d
+
+14: What is the primary ingredient in traditional paella?
+a. Rice
+b. Pasta
+c. Bread
+d. Quinoa
+Answer: a
+
+15: Which spice is derived from the dried stigma of a flower and is one of the most expensive spices by weight?
+a. Cinnamon
+b. Saffron
+c. Turmeric
+d. Paprika
+Answer: b
+
+16: What is the main ingredient in the dish "Baba Ganoush"?
+a. Eggplant
+b. Cauliflower
+c. Zucchini
+d. Potato
+Answer: a
+
+17: What is the primary ingredient in the Indian dish "Palak Paneer"?
+a. Spinach
+b. Eggplant
+c. Potato
+d. Okra
+Answer: a
+
+18: Which type of bread is commonly used to make a traditional BLT sandwich?
+a. Baguette
+b. Sourdough
+c. Ciabatta
+d. White bread
+Answer: d
+
+19: Which fruit is known for its pungent smell but sweet taste and custard-like texture?
+a. Durian
+b. Kiwi
+c. Dragon fruit
+d. Papaya
+Answer: a
+
+20: What is the primary ingredient in the Japanese dish "Miso Soup"?
+a. Tofu
+b. Seaweed
+c. Miso paste
+d. Rice
+Answer: c
+21: Which company developed the Android operating system?
+a. Apple
+b. Microsoft
+c. Google
+d. Samsung
+Answer: c
+
+22: What does "CPU" stand for in computing?
+a. Central Processing Unit
+b. Computer Programming Utility
+c. Control Processing Unit
+d. Central Power Unit
+Answer: a
+
+23: What is the main function of a router in a computer network?
+a. Connect devices within a local network
+b. Block unwanted websites
+c. Amplify Wi-Fi signals
+d. Store large amounts of data
+Answer: a
+
+24: What technology is used to transmit data wirelessly over short distances between devices like smartphones and earphones?
+a. Bluetooth
+b. Wi-Fi
+c. NFC (Near Field Communication)
+d. GPS
+Answer: a
+
+25: What is the term for a malicious program that replicates itself and spreads to other computers or devices?
+a. Virus
+b. Trojan horse
+c. Worm
+d. Spyware
+Answer: c
+
+26: What is the primary function of a firewall in computer security?
+a. Monitor internet traffic
+b. Protect against viruses
+c. Block unauthorized access
+d. Encrypt data
+Answer: c
+
+27: What does "HTML" stand for in web development?
+a. Hyperlink Text Markup Language
+b. Hyper Text Markup Language
+c. High-Tech Markup Language
+d. Home Tool Markup Language
+Answer: b
+
+28: What is the term for a large, powerful computer that typically serves multiple users simultaneously in a networked environment?
+a. Server
+b. Mainframe
+c. Supercomputer
+d. Workstation
+Answer: b
+
+29: What technology is used to store data in a non-volatile memory that can be electrically erased and reprogrammed?
+a. CD-ROM
+b. Hard disk drive (HDD)
+c. Flash memory
+d. Magnetic tape
+Answer: c
+
+30: Which programming language is commonly used for building dynamic web applications?
+a. Java
+b. C++
+c. Python
+d. JavaScript
+Answer: d
+31: Who wrote the famous novel "To Kill a Mockingbird"?
+a. Harper Lee
+b. Ernest Hemingway
+c. F. Scott Fitzgerald
+d. Mark Twain
+Answer: a
+
+32: What is the traditional dance of Spain, characterized by its fast-paced footwork and rhythmic clapping?
+a. Samba
+b. Tango
+c. Flamenco
+d. Waltz
+Answer: c
+
+33: Which country is famous for its traditional tea ceremony, an elaborate ritual involving the preparation and consumption of matcha green tea?
+a. China
+b. Japan
+c. India
+d. England
+Answer: b
+
+34: What is the traditional dress of Scotland for men?
+a. Kilt
+b. Kimono
+c. Sari
+d. Lederhosen
+Answer: a
+
+35: Who is the playwright known for works such as "Hamlet," "Macbeth," and "Romeo and Juliet"?
+a. William Shakespeare
+b. Tennessee Williams
+c. Arthur Miller
+d. George Bernard Shaw
+Answer: a
+
+36: Which musical instrument is often associated with traditional Irish music?
+a. Bagpipes
+b. Harp
+c. Bodhrán (Irish drum)
+d. Tin whistle
+Answer: d
+
+37: What is the traditional greeting in Japan, often accompanied by a bow?
+a. Namaste
+b. Hola
+c. Konnichiwa
+d. Arigatou gozaimasu
+Answer: c
+
+38: Which festival marks the Chinese New Year and is celebrated with dragon and lion dances, fireworks, and the exchange of red envelopes containing money?
+a. Diwali
+b. Eid al-Fitr
+c. Lunar New Year
+d. Hanukkah
+Answer: c
+
+39: What is the traditional Mexican dish consisting of a thin corn or wheat tortilla filled with various ingredients such as meat, cheese, and vegetables?
+a. Quesadilla
+b. Enchilada
+c. Burrito
+d. Taco
+Answer: d
+
+40: Who painted the famous artwork "The Starry Night"?
+a. Vincent van Gogh
+b. Pablo Picasso
+c. Leonardo da Vinci
+d. Claude Monet
+Answer: a

@@ -1,0 +1,134 @@
+1: What is the capital of France?
+a. London
+b. Berlin
+c. Paris
+d. Rome
+Answer:c
+2: Who is the author of "Romeo and Juliet"?
+a. William Shakespeare
+b. Mark Twain
+c. Jane Austen
+d. Charles Dickens
+Answer:a
+3: What is the chemical symbol for water?
+a. Wo
+b. H2O
+c. Co
+d. O2
+Answer:b
+4: What is the tallest mountain in the world?
+a. Mount Everest
+b. K2
+c. Kangchenjunga
+d. Lhotse
+Answer:a
+
+5: Who painted the Mona Lisa?
+a. Vincent van Gogh
+b. Pablo Picasso
+c. Leonardo da Vinci
+d. Michelangelo
+Answer:c
+6: What is the largest ocean in the world by surface area?
+a. Atlantic Ocean
+b. Pacific Ocean
+c. Indian Ocean
+d. Arctic Ocean
+Answer:b
+7: What is the name of the largest living organism on Earth?
+a. Giant sequoia tree
+b. Antarctic blue whale
+c. Armillaria ostoyae fungus
+d. Tubeworm
+Answer:c
+
+8: What is the most populous country in the world?
+a. China
+b. India
+c. United States
+d. Indonesia
+Answer:a
+
+9: What is the highest mountain peak on Earth above sea level?
+a. Mount Everest
+b. K2
+c. Kangchenjunga
+d. Lhotse
+Answer:a
+
+10: What is the most common chemical element in the Earth's crust?
+a. Oxygen
+b. Silicon
+c. Aluminum
+d. Iron
+Answer:a
+
+11: What is the smallest country in the world by land area?
+a. Vatican City
+b. Monaco
+c. Nauru
+d. Tuvalu
+Answer:a
+
+12: What is the name of the deepest lake in the world?
+a. Lake Baikal
+b. Caspian Sea
+c. Superior Lake
+d. Tanganyika Lake
+Answer: a
+
+13: What is the name of the largest desert in the world by total area?
+a. Sahara Desert
+b. Arctic Desert
+c. Antarctic Desert
+d. Arabian Desert
+Answer: b
+
+14: What is the name of the longest river in North America?
+a. Mississippi River
+b. Mackenzie River
+c. Yukon River
+d. St. Lawrence River
+Answer: a
+
+15: What is the name of the largest country in Africa by land area?
+a. Algeria
+b. Sudan
+c. South Sudan
+d. Chad
+Answer: a
+
+16: What is the name of the capital of the United Kingdom?
+a. Edinburgh
+b. Cardiff
+c. Belfast
+d. London
+Answer: d
+
+17: What is the name of the national animal of India?
+a. Bengal Tiger
+b. Asian Elephant
+c. Indian Rhinoceros
+d. Gaur
+Answer: a
+
+18: What is the name of the currency of Brazil?
+a. Real
+b. Peso
+c. Dollar
+d. Euro
+Answer: a
+
+19: What is the name of the tallest mountain in the Andes mountain range?
+a. Aconcagua
+b. Chimborazo
+c. Cotopaxi
+d. Huascarán
+Answer: a
+
+20: What is the name of the largest island in the world?
+a. Greenland
+b. New Guinea
+c. Borneo
+d. Madagascar
+Answer: a
