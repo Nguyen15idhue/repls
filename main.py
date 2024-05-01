@@ -4,7 +4,6 @@ import logging
 import asyncio
 import requests
 
-
 from keep_alive import keep_alive
 keep_alive()
 from telegram import Update, ForceReply
@@ -46,9 +45,18 @@ async def help_command(update: Update,
     )
 
 async def reading(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    context.user_data['data_synced'] = False  # Đặt lại cờ data_synced
     await update.message.reply_text("Vui lòng nhập họ và tên của bạn:")
     context.user_data['awaiting_name'] = True
     context.user_data['total_questions_asked'] = 0  # Khởi tạo tổng số câu hỏi đã hỏi
+    # Log that a user has started a reading session
+    logging.info(f"User {update.effective_user.id} has started a reading session.")
+def track_status_code(status_code):
+  # Log the status code received from the Replit server
+  if status_code == 200:
+      logging.info("Replit server responded with status 200 OK.")
+  elif status_code == 404:
+      logging.warning("Replit server responded with status 404 Not Found.")
 
 async def handle_name(update: Update,
                       context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -190,7 +198,7 @@ async def show_result(context, update):
         recent_level_questions = recent_questions_by_level.get(str(level), 0)
         total_level_questions = total_questions_by_level.get(str(level), 0)  # Lấy tổng số câu hỏi cho level
         percent_correct_in_recent = 0 if recent_level_questions == 0 else round(recent_level_correct / recent_level_questions * 100, 2)
-        result_message += f"Level {level}: {level_correct} câu đúng,trong đó {recent_level_correct} câu đúng trong 20 câu gần nhất\n"
+        result_message += f"Level {level}: {level_correct} câu đúng trong {total_level_questions} câu, {recent_level_correct} câu đúng trong 20 câu gần nhất\n"
         result_message += f"Phần trăm đúng của level {level} trong 20 câu gần nhất: {recent_level_correct}/{recent_level_questions}, {percent_correct_in_recent}%\n"
         result_message += "---\n"
     result_message += f"\n---->Số câu đúng đã trả lời là {total_correct_count}\n"  # Hiển thị tổng số câu đúng
@@ -200,7 +208,7 @@ async def show_result(context, update):
     await update.message.reply_text(result_message)
 
     # Kiểm tra và đồng bộ thông tin qua webhook khi số câu hỏi đạt 20
-    if total_questions_asked >= 20 and context.user_data.get('sync_data', True):
+    if total_questions_asked >= 20 and not context.user_data.get('data_synced', False):
         user_name = context.user_data['name']
         level_correct = {level: correct_count[str(level)] for level in range(1, 7)}
         total_questions_asked = context.user_data.get('total_questions_asked', 0)
@@ -214,9 +222,10 @@ async def show_result(context, update):
         }
         try:
             requests.post(webhook_url, json=sync_data)
+            context.user_data['data_synced'] = True  # Đánh dấu là dữ liệu đã được đồng bộ
         except Exception as e:
             logging.error(f"Failed to sync user data via webhook: {e}")
-        context.user_data['sync_data'] = False
+
 
     current_level = int(context.user_data['level'])
     lower_level_percent = recent_level_correct_count.get(str(current_level - 1), 0) / recent_questions_by_level.get(str(current_level - 1), 1) * 100 if current_level > 1 else 0
@@ -273,7 +282,7 @@ async def answer(update: Update,
     recent_questions_by_level = context.user_data.get('recent_questions_by_level', {})
     total_questions_by_level = context.user_data.get('total_questions_by_level', {})
     total_correct_count = sum(correct_count.values())  # Tính tổng số câu đúng
-  
+
     result_message = "Kết quả của bạn:\n"
     result_message += "-" * 70 + "\n"
     for level in range(1, 7):
